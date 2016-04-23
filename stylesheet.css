@@ -1,0 +1,70 @@
+body{
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: Questrial, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+  background: #AA0066;
+  border-radius: 5px;
+  border: 1px solid #AA0066;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  left: 45%;
+  padding: 15px 35px 15px 35px;
+  position: absolute;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background: #FFF;
+  color: #004162;
+  border: 1px solid #AA0066; 
+}
+
+.profile{
+    height: auto; 
+    width: auto; 
+    max-width: 290px; 
+    max-height: 290px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    margin: 15px;
+    transform: rotate(4deg);
+    float: right;
+}
+
+header h1{
+    text-align:left;
+    padding-top: 23px;
+}
+
+header p{
+    text-align:left;
+}
+
+hr {
+    color: #CCCCCC;	
+}
+
+main h2 {
+	letter-spacing: 1.5px;
+}
+
+.education p{
+	line-height: 15px;
+}
+
+.experience {
+	line-height: 20px;
+}
+
+.experience p{
+	font-weight: bold;
+}
